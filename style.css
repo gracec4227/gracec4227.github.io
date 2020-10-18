@@ -1,34 +1,59 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: White;
-}
+<style>
 
-.cd-logo {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #248A80;
-  background-size: cover;
-  min-height: 100%;
-}
+		/* Style the top navigation bar */
+		.topnav {
+		  overflow: hidden;
+		  background-color: #6F4234;
+		  font-family: 'Dancing Script';
+		}
 
-.cd-logo {
-  background-image: url('../image/gracebaking.png');
-  min-height: 100%;
-  background-size: auto;
-}
+		/* Style the topnav links */
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #F5C396;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 30;
+		}
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: white;
-  text-align:center
-}
+		/* Change color on hover */
+		.topnav a:hover {
+		  background-color: #F5C396;
+		  color: #6F4234;
+		}
 
-.textSection {
-  background-color:#248A80;
-  padding:50px 80px;
-}
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h1 {
+			font-size: 0;
+		}
+
+		h2 {
+			font-family: 'Dancing Script';
+			color: #F5C396;
+			text-align: center;
+		}
+
+		body {
+			background-color: #5A352A;
+			color: #FFFFFF;
+		}
+		nav ul {
+			list-style-type: none;
+			color: F5C396;
+			font-family: 'Dancing Script';
+			font-size: 20
+
+		}
+		nav ul li {
+			display: inline;
+			margin-left: 30px;
+		}
+
+	</style>
