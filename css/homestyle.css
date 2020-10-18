@@ -11,6 +11,10 @@
 
   #home{
     background-image: "images/designbuild.jpg";
+    width:; 100%
+    height: 800px;
+    background-size: contain;
+    border: 3px red;
   }
   #about{
     background: #561B1F;
