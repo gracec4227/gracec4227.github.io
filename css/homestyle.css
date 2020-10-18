@@ -8,7 +8,7 @@ b) Header Style (Nav Bar)
 /*=======(a)=======*/
 	html { width:100%; height:100%; margin:0 padding:0; }
 	body { width:100%; height:100%; margin:0; padding:0; }
-	
+
 	section{
 		width: 100%;
 		height: 800px;
@@ -16,7 +16,7 @@ b) Header Style (Nav Bar)
 		font-family: 'Aleo';
 		font-size: 22px;
 	}
-	
+
 	footer{
 	  font-family: 'Aleo';
 	  text-align: center;
@@ -24,18 +24,18 @@ b) Header Style (Nav Bar)
 	  padding-top: 25px;
 	  padding-bottom: 30px;
 	}
-	
+
 	#socials a{
 		font-size: 15px;
 		color:#FFFFFF;
 		padding-right: 25px;
 	}
-	
+
 	#socials-bott a{
 		color:#000000;
 		padding-right: 25px;
 	}
-	
+
 /*=======end of (a)=======*/
 
 
@@ -88,7 +88,7 @@ b) Header Style (Nav Bar)
 		justify-content: center;
 		align-items: center;
 		color: white;
-		background-image: url('../images/designbuild.jpg');
+		background-image: url('../images/designbuild.JPG');
 		background-size: cover;
 		font-family: 'Aleo';
 		font-size: 22px;
@@ -100,7 +100,7 @@ b) Header Style (Nav Bar)
 	  font-size: 50px;
 	  line-height = 1.6;
   }
-  
+
   #about{
 	padding-top: 75px;
 	padding-bottom: 75px;
@@ -109,7 +109,7 @@ b) Header Style (Nav Bar)
 	text-align: center;
     background: #B1A296;
   }
-  
+
   .about-intro {
 		display: flex;
 		flex-direction: row;
@@ -118,9 +118,9 @@ b) Header Style (Nav Bar)
 		padding-left: 200px;
 		padding-right: 200px;
 		text-align: left;
-	  
+
   }
-  
+
 .about-intro img {
   height: 200px;
   width: 200px;
@@ -136,18 +136,18 @@ b) Header Style (Nav Bar)
 }
 
 
-  
-  
-  
+
+
+
   #resume{
 	padding-top: 75px;
-	padding-bottom: 75px;	  
+	padding-bottom: 75px;
 	font-family: 'Aleo';
 	font-size: 22px;
     background: #95A7B6;
 	text-align: center;
   }
-  
+
   #projects{
 	padding-top: 75px;
 	padding-bottom: 75px;
@@ -164,7 +164,7 @@ b) Header Style (Nav Bar)
     background: #95A7B6;
 	text-align: center;
   }
-  
+
 
 
 
