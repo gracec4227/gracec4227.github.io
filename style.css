@@ -16,12 +16,14 @@
 		  padding: 14px 16px;
 		  text-decoration: none;
 		  font-size: 30;
+      font-family: 'Dancing Script';
 		}
 
 		/* Change color on hover */
 		.topnav a:hover {
 		  background-color: #F5C396;
 		  color: #6F4234;
+      font-family: 'Dancing Script';
 		}
 
 		img {
@@ -48,7 +50,7 @@
 			list-style-type: none;
 			color: F5C396;
 			font-family: 'Dancing Script';
-			font-size: 20
+			font-size: 20;
 
 		}
 		nav ul li {
