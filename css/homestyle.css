@@ -10,10 +10,10 @@
   }
 
   #home{
-    background-image: "images/designbuild.jpg";
+    background-image: url('images/designbuild.jpg');
     width:; 100%
     height: 800px;
-    background-size: contain;
+    background-size: cover;
     border: 3px red;
   }
   #about{
