@@ -88,6 +88,7 @@ b) Header Style (Nav Bar)
 		justify-content: center;
 		align-items: center;
 		color: white;
+		background: #B1A296;
 		background-image: url('../images/designbuild.jpg');
 		background-size: cover;
 		font-family: 'Aleo';
@@ -107,7 +108,7 @@ b) Header Style (Nav Bar)
 	font-family: 'Aleo';
 	font-size: 22px;
 	text-align: center;
-    background: #B1A296;
+  background: #B1A296;
   }
 
   .about-intro {
@@ -154,9 +155,9 @@ b) Header Style (Nav Bar)
 	font-family: 'Aleo';
 	font-size: 22px;
 	text-align: center;
-    background: #B1A296;
+  background: #B1A296;
   }
-  #activites{
+  #activities{
 	padding-top: 75px;
 	padding-bottom: 75px;
 	font-family: 'Aleo';
