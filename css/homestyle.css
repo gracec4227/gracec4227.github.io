@@ -3,54 +3,60 @@ Table of Contents:
 a) General Style
 b) Header Style (Nav Bar)
 ============================*/
-
 <style>
+
 /*=======(a)=======*/
-	html { width:100%; height:100%; margin:0 padding:0; }
-	body { width:100%; height:100%; margin:0; padding:0; }
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0 padding:0;
+}
 
-	section{
-		width: 100%;
-		height: 800px;
-		float: left
-		font-family: 'Aleo';
-		font-size: 22px;
-	}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-	footer{
-	  font-family: 'Aleo';
-	  text-align: center;
-	  background: #B1A296;
-	  padding-top: 25px;
-	  padding-bottom: 30px;
-	}
+section {
+  width: 100%;
+  height: 800px;
+  float: left font-family: 'Aleo';
+  font-size: 22px;
+}
 
-	#socials a{
-		font-size: 15px;
-		color:#FFFFFF;
-		padding-right: 25px;
-	}
+footer {
+  font-family: 'Aleo';
+  text-align: center;
+  background: #B1A296;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
 
-	#socials-bott a{
-		color:#000000;
-		padding-right: 25px;
-	}
+#socials a {
+  font-size: 15px;
+  color: #FFFFFF;
+  padding-right: 25px;
+}
+
+#socials-bott a {
+  color: #000000;
+  padding-right: 25px;
+}
 
 /*=======end of (a)=======*/
-
-
-
-
-
 /*=======(b)=======*/
-
 /* The navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
   font-family: 'Aleo';
   font-size: 15px;
 }
@@ -76,56 +82,50 @@ b) Header Style (Nav Bar)
 }
 
 /*=======end of (b)=======*/
-
-
-
-
-
-  #home{
-		height: 650px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		background: #B1A296;
-		background-image: url('../images/designbuild.jpg');
-		background-size: cover;
-		font-family: 'Aleo';
-		font-size: 22px;
-  }
-
-  #name{
-	  font-family: 'Aleo';
-	  color: black;
-	  font-size: 50px;
-	  line-height = 1.6;
-  }
-
-  #about{
-	padding-top: 75px;
-	padding-bottom: 75px;
-	font-family: 'Aleo';
-	font-size: 22px;
-	text-align: center;
+#home {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
   background: #B1A296;
-  }
+  background-image: url('../images/designbuild.jpg');
+  background-size: cover;
+  font-family: 'Aleo';
+  font-size: 22px;
+}
 
-  .about-intro {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		padding-left: 200px;
-		padding-right: 200px;
-		text-align: left;
+#name {
+  font-family: 'Aleo';
+  color: black;
+  font-size: 50px;
+  line-height=1.6;
+}
 
-  }
+#about {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-family: 'Aleo';
+  font-size: 22px;
+  text-align: center;
+  background: #B1A296;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
+}
 
 .about-intro img {
   height: 200px;
   width: 200px;
-  border:1px solid #ACCBE1;
+  border: 1px solid #ACCBE1;
   border-radius: 50%;
   margin: 0.9rem 1rem 0 2rem;
   float: left;
@@ -136,38 +136,31 @@ b) Header Style (Nav Bar)
   padding-left: 13rem;
 }
 
+#resume {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-family: 'Aleo';
+  font-size: 22px;
+  background: #95A7B6;
+  text-align: center;
+}
 
-
-
-
-  #resume{
-	padding-top: 75px;
-	padding-bottom: 75px;
-	font-family: 'Aleo';
-	font-size: 22px;
-    background: #95A7B6;
-	text-align: center;
-  }
-
-  #projects{
-	padding-top: 75px;
-	padding-bottom: 75px;
-	font-family: 'Aleo';
-	font-size: 22px;
-	text-align: center;
+#projects {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-family: 'Aleo';
+  font-size: 22px;
+  text-align: center;
   background: #B1A296;
-  }
-  #activities{
-	padding-top: 75px;
-	padding-bottom: 75px;
-	font-family: 'Aleo';
-	font-size: 22px;
-    background: #95A7B6;
-	text-align: center;
-  }
+}
 
-
-
-
+#activities {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-family: 'Aleo';
+  font-size: 22px;
+  background: #95A7B6;
+  text-align: center;
+}
 
 </style>
