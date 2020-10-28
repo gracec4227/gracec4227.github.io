@@ -89,7 +89,8 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  background-image: url('../images/designbuild.jpg');
+  background-image: url('../images/designbuild.JPG');
+  background-color: #95A7B6;
   background-size: cover;
   font-family: 'Aleo';
   font-size: 22px;
